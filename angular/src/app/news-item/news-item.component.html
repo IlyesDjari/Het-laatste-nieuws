@@ -1,0 +1,5 @@
+<div class="card" (click)="onClicked()" *ngIf="newsItem">
+  <div class="img" [style.background-image]="newsItem.urlToImage ? 'url(' + newsItem.urlToImage + ')' : 'none'">  <h2 class="title">
+    {{newsItem.title}}
+  </h2></div>
+</div>

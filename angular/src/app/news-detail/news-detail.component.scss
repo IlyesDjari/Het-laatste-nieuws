@@ -1,0 +1,97 @@
+.page {
+  background-color: lightgray;
+  display: flex;
+  margin-bottom: 10vh;
+  flex-direction: row;
+  margin-left: 5vw;
+  .content {
+    border-radius: 15px;
+    width: 65vw;
+    background-color: white;
+    margin-top: 10vh;
+
+    .body {
+      padding: 5vh 5vw 4vw 5vw;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .update {
+      padding: 4vh 0 0 5vw;
+    }
+
+    .bron { padding-left: 5vw;
+    }
+
+    .title {
+      padding: 2vh 5vw 0 5vw;
+      font-size: 3vh;
+    }
+
+    .desc {
+      padding: 2vh 5vw 0 5vw;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.75vh;
+      font-weight: bold;
+      opacity: 60%;
+    }
+
+    img {
+      width: 65vw;
+      height: 50vh;
+      border-radius: 15px 15px 0px 0px;
+    }
+
+    iframe {
+      margin: 0 0 5vh 5vw;
+      border-radius: 10px;
+    }
+
+    .part2 {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .templatequote {
+      margin: 10vh 2vw 0 3vw;
+    }
+
+    .botquote {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+
+    .leftquote {
+      width: auto;
+      height: 5vh;
+      margin-bottom: 2vh;
+    }
+
+    .quotename {
+      color: black;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-top: 2vh;
+      font-size: 1.5vh;
+      font-weight: bold;
+      opacity: 60%;
+    }
+
+    .rightquote {
+      width: auto;
+      height: 5vh;
+      margin-top: 2vh;
+    }
+
+  }
+
+  .fakead {
+    margin: 0 3vh 0 7.5vw;
+    border-radius: 10px;
+    position: absolute;
+    top: 27vh;
+    right: 0;
+  }
+
+}
+

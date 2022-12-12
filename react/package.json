@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "create-react-app": "^1.2.1"
+  },
+  "devDependencies": {
+    "sass": "^1.50.0"
+  }
+}

@@ -1,0 +1,79 @@
+.leftMenu {
+  position: absolute;
+  top: 27.5vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5vh;
+  height: 6 0vh;
+}
+
+.leftMenu > * {
+  color: white;
+  font-weight: 700;
+  font-size: 2vh;
+  display: 	flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 0 10px 10px  0;
+  width: 12vw;
+  height: 5vh;
+  opacity: 0.5;
+  font-family:  'Arial', sans-serif;
+}
+
+.fun:hover,
+.sport:hover,
+.nieuws:hover,
+.tech:hover,
+.showbizz:hover,
+.eten:hover,
+.regionaal:hover,
+.random:hover {
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+.nieuws {
+  transform: scale(1.2);
+  opacity: 1;
+  background-color: #008FD3;
+  transition: all 0.5s;
+}
+
+.fun {
+  background-color: #DF620A;
+  transition: all 0.5s;
+}
+
+.sport {
+  background-color: #6DB146;
+  transition: all 0.5s;
+}
+
+.tech {
+  background-color: #FF0000;
+  transition: all 0.5s;
+}
+
+.showbizz {
+  background-color: #EC008C;
+  transition: all 0.5s;
+}
+
+.eten {
+  background-color: #005DFF;
+  transition: all 0.5s;
+}
+
+.regionaal {
+  background-color: #9703BB;
+  transition: all 0.5s;
+}
+
+.random {
+  background-color: #00DCFF;
+  transition: all 0.5s;
+}

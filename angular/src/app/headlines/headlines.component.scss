@@ -1,0 +1,31 @@
+.page {
+  background-color: lightgray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  .content {
+    width: 80%;
+
+    .section1 {
+      margin-top: 5vh;
+      width: 70%;
+    }
+
+    .section2 {
+      height: 40vh;
+      margin-left: -3vw;
+      display: grid;
+      margin-top: 5vh;
+      grid-template-columns: 1fr 1fr 1fr;
+      hln-news-item {
+        padding: 0 0 0 3vw;
+      }
+    }
+
+    .section {
+        .section-title{
+            font-size: x-large;
+        }
+    }
+  }
+}

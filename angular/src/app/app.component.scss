@@ -1,0 +1,92 @@
+.header {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: white;
+  .navigation {
+    padding: 0 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 67.5vw;
+    
+    a {
+      text-decoration: none;
+      font-size: 2.5vh;
+      color: black;
+      opacity: 50%;
+      font-weight: bold;
+    }
+
+    .nieuws {
+      opacity: 100%;
+      font-weight: bolder;
+    }
+
+    .logo {
+      img {
+        width: 4.5vw;
+        height: auto;
+        cursor: pointer;
+      }
+    }
+    div {
+      vertical-align: middle;
+    }
+  }
+}
+
+.log {
+  position: absolute;
+  right: 12.5vw;
+  gap: 1vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.register {
+  align-self: center;
+}
+
+.register h3 {
+  color: #008FD3;
+}
+
+.login {
+  background-color: #008FD3;
+  padding: 0.75vh 0; 
+  width: 7.5vw;
+  border-radius: 7.5px;
+}
+
+.login h3 {
+  font-size: 2vh;
+  color: white;
+  text-align: center;
+}
+
+.underline {
+  position: absolute;
+  z-index: 10;
+  top: 11vh;
+  border-radius: 5px;
+  left: 10vw;
+  height: 0.75vh;
+  background-color: #008FD3;
+  width: 5vw;
+  margin-top: 2vh;
+}
+
+
+
+a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.content {
+  background-color: #e5e5e5;
+}
+
